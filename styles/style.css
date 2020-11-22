@@ -165,7 +165,6 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
-  border: 1px solid red;
 }
 
 .table__text {
@@ -263,31 +262,28 @@
   margin-right: 0;
   margin-top: 80px;
   z-index: 2;
-  border: 1px solid red;
 }
 
 .table__heading_theme_dark {
   color: white;
   margin-bottom: 20px;
   z-index: 2;
-  border: 1px solid red;
 }
 
 .table__text_theme_dark {
   color: white;
   z-index: 2;
-  border: 1px solid red;
 }
 
 .footer {
   background-color: #1f1f1f;
+  color: white;
   min-height: 350px;
   box-sizing: border-box;
   display: flex;
   position: relative;
   padding-top: 60px;
   padding-bottom: 40px;
-  border: 1px solid red;
 }
 
 .footer__columns {
@@ -295,60 +291,56 @@
   margin: 0 auto;
   padding: 0;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  border: 1px solid red;
+}
+
+.footer__column {
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .footer__column_content_copyright {
   flex-basis: 711px;
-  flex-direction: column;
-  border: 1px solid red;
+  display: flex;
 }
 
 .logo_place_footer {
   width: 183px;
   height: 35px;
-  border: 1px solid red;
 }
 
 .footer__author {
-  color: white;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
   margin-left: 0;
   margin-bottom: 18px;
-  border: 1px solid red;
 }
 
 .footer__column-heading {
-  color: white;
   line-height: 45px;
   font-size: 18px;
   font-weight: bold;
   margin: 0 0 20px 0;
-  border: 1px solid red;
 }
 
 .footer__column-links {
-  color: white;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
   margin: 0;
   padding: 0;
-  text-decoration: none;
   list-style-type: none;
-  border: 1px solid red;
+}
+
+.footer__links {
+  color: white;
+  text-decoration: none;
 }
 
 .footer__social-icon {
-  color: white;
   height: 16px;
   width: 16px;
   margin: 0 10px 0 0;
-  padding: 0;
-  list-style-type: none;
-  text-decoration: none;
-  border: 1px solid red;
 }
