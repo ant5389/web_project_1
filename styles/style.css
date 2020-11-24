@@ -68,7 +68,6 @@
   z-index: 1;
 }
 
-/* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -238,6 +237,7 @@
   z-index: 0;
   top: 0;
   right: -210px;
+  background-size: cover;
 }
 
 .section-title_theme_dark {
@@ -255,7 +255,6 @@
   z-index: 2;
 }
 
-/* including elements with key-value modifiers */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
