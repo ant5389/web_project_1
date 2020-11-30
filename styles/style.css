@@ -56,8 +56,14 @@
   left: 64px;
   color: #2f80ed;
   text-decoration: none;
-
+  opacity: 1;
+  transition: opacity 1s linear 0s;
 }
+
+.header__link:hover {
+  opacity: 0.5;
+}
+
 .header__main-illustration {
   position: absolute;
   object-fit: contain;
@@ -71,11 +77,22 @@
 .header__square-pic {
   height: 568px;
   width: 568px;
+  transform: rotate(-15deg);
   position: absolute;
   top: 64px;
   right: 0;
   z-index: 0;
   background-color: #2f80ed;
+  animation: rotate 20s linear 0s infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .description {
@@ -210,6 +227,12 @@
   top: 50%;
   right: 48px;
   position: absolute;
+  opacity: 1;
+  transition: opacity 1s linear 0s;
+}
+
+.feynman__link:hover {
+  opacity: 0.25;
 }
 
 .feynman__image {
@@ -336,6 +359,12 @@
 .footer__links {
   color: white;
   text-decoration: none;
+  opacity 1;
+  transition: opacity 1s linear 0s;
+}
+
+.footer__links:hover {
+  opacity: 0.25;
 }
 
 .footer__social-icon {
