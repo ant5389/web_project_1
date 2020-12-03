@@ -2,3 +2,11 @@
 @import url(./__link/feynman__link.css);
 @import url(./__subtitle/feynman__subtitle.css);
 @import url(./__title/feynman__title.css);
+
+.feynman {
+  min-height: 790px;
+  padding-top: 80px;
+  position: relative;
+  z-index: 1;
+  background-color: #f2f2f2;
+}
