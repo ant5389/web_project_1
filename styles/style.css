@@ -185,14 +185,15 @@
   overflow: visible;
 }
 
-.video__iframe {
+.video__iframes {
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  margin-bottom: -30px;
+  margin-bottom: -60px;
+  list-style-type: none;
 }
 
-.video__iframe:first-child {
+.video__iframe {
   margin-right: 20px;
 }
 
