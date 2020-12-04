@@ -16,12 +16,4 @@
 @import url(../blocks/table/table.css);
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/video/video.css);
-
-@keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+@import url(../blocks/rotation/rotation.css);
